@@ -1,4 +1,4 @@
-A project based on bus ticket booking ,have worked on Reviews Routes and Customer Entity
+A project based on bus ticket booking ,have worked on Reviews,Routes,Discount,Trips and Customer Entity
 
 Swagger Implementation
 http://localhost:7080/swagger-ui/index.html
