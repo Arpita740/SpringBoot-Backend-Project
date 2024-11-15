@@ -36,7 +36,6 @@ postman api:
         "tripId": 456
     }
 }
-
 2.http://localhost:7080/api/trips/2/discounts (add a  discount)
 ---json body---
 {
@@ -46,6 +45,7 @@ postman api:
 }
 
 //put endpoints
+
 1.http://localhost:7080/api/routes/1 ( update a data in route table)
 ---json body---
 {
@@ -54,6 +54,7 @@ postman api:
   "breakPoints": 3,
   "duration": 5
 }
+
 2.http://localhost:7080/api/agencies/offices/3 (update a data in agency_offices table)
 ---json body---
 {
