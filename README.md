@@ -21,9 +21,11 @@ postman api:
 3. http://localhost:7080/api/reviews/1 (get a review by id)
 4. http://localhost:7080/api/reviews/all (search all reviews)
 5. http://localhost:7080/api/reviews/customerid/1 (get review by customer id)
-//post endpoint
 
+
+//post endpoint
 1.http://localhost:7080/api/reviews/add (add a review)
+
 ---json body----
 {
     "rating": 5,
@@ -37,6 +39,7 @@ postman api:
     }
 }
 2.http://localhost:7080/api/trips/2/discounts (add a  discount)
+
 ---json body---
 {
     "discountCode": "WINTER20",
@@ -45,8 +48,8 @@ postman api:
 }
 
 //put endpoints
-
 1.http://localhost:7080/api/routes/1 ( update a data in route table)
+
 ---json body---
 {
   "fromCity": "New York",
@@ -56,6 +59,7 @@ postman api:
 }
 
 2.http://localhost:7080/api/agencies/offices/3 (update a data in agency_offices table)
+
 ---json body---
 {
   "officeMail": "newmail@office.com",
